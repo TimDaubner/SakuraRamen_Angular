@@ -1,0 +1,26 @@
+div {
+    height: 144px;
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    gap: 10px;
+
+    >img {
+        width: auto;
+        height: 44px;
+    }
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        padding: 0;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

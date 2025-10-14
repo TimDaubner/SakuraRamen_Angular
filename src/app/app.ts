@@ -1,11 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LandingPageComponent } from './landingPage/landingPage.component';
+import { MainContent } from "./main-content/main-content";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,LandingPageComponent],
+  imports: [RouterOutlet, MainContent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

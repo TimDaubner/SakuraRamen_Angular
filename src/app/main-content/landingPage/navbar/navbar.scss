@@ -1,0 +1,50 @@
+nav{
+    font-size: 24px;
+    margin: 0 112px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >img{
+        width: 64px;
+        height: 64px;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        >a{
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.frame-phone{
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    transition: all 125ms ease-in-out;
+    &:hover{
+    background-color: #fb5858;
+    transform: scale(1.1);
+    }
+    >img{
+        width: 18px;
+        height: 18px;
+        padding-right: 4px;
+    }
+    >a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
